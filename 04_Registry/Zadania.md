@@ -14,7 +14,7 @@ docker pull ubuntu:16.04
 ```
 docker tag ubuntu:16.04 localhost:27015/my-ubuntu
 ```
-<i>Ta komenda tworzy dodatkowy tag dla istniejącego obrazu. Gdy pierwszą częścią tagu jest nazwa hosta i port, Docker interpretuje to jako lokalizację rejestru podczas wypychania obrazu do repozytorium.</i><br>
+>Ta komenda tworzy dodatkowy tag dla istniejącego obrazu. Gdy pierwszą częścią tagu jest nazwa hosta i port, Docker interpretuje to jako lokalizację rejestru podczas wypychania obrazu do repozytorium.</i><br>
 
 3. Posiadając już odpowiednio otagowany obraz zawierający adres i port wypchnijmy obraz do naszego repozyorium
 ```
