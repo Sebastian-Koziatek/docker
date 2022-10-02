@@ -1,0 +1,10 @@
+services:
+  frontend:
+    image: my-vue-app
+    ...
+  backend:
+    image: my-springboot-app
+    ...
+  db:
+    image: postgres
+    ...
