@@ -14,7 +14,7 @@ docker run -v /var/run/docker.sock:/var/run/docker.sock \
            -ti docker
 ```
 
-> UWAGA! - jeżeli przekażesz kontenerowi docker.sock to pamiętaj że kontener będzie miał więcej uprawnień nad demonem dockera na twoim hoście. Więc kiedy chcesz tego użyć w celach produkcyjnych to miej to na uwadze!
+> UWAGA! - jeżeli przekażesz kontenerowi docker.sock to pamiętaj że kontener będzie miał więcej uprawnień nad demonem dockera na twoim hoście. Więc kiedy chcesz tego użyć w celach produkcyjnych to miej to na uwadze `(ale lepiej unikaj)`!
 
 ### Dla testu się zabawmy
 
