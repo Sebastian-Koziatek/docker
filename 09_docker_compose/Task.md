@@ -19,3 +19,5 @@
 - - Wskaż dowolne miejsce mapowania folderów.
 - - zdefniuj aby kontener restartował sie zawsze, chyga że zostanie zatrzymany
 
+___
+

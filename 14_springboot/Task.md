@@ -2,7 +2,7 @@
 
 1. Zajrzyj na strone springboota. Pozwala on przyśpieszyc i ułątwić budowanie alikacji webowych i mikroserwisów we frameworku spring.   
 
-`https://spring.io/guides/gs/spring-boot-docker/`
+`https://start.spring.io/`
 
 Na podstawie dokumetacji ze strony Spring boot przygotowałem na dzisiaj prostą aplikację webową (w katalogu z lekcją). Przekompilujemy ją, uruchomimy i skonteneryzujemy. 
 
@@ -33,7 +33,7 @@ ENTRYPOINT ["java","-jar","/app.jar"]
 docker build -t springboot .
 ```
 
-6. Sprawdźmy czy aplikacja urochomi. Uruchom kontener z obrazu w tle i na porcie 8080
+6. Sprawdźmy czy aplikacja urochomi. Uruchom kontener z obrazu w tle i na porcie 8080 (specjalnie brak -d)
 
 ```
 docker run -p 8080:8080 springboot
