@@ -33,10 +33,6 @@ docker push localhost:27015/my-ubuntu
 docker pull localhost:27015/my-ubuntu
 ```
 
-## Zabezpieczenie dostępu z użyciem lets encrypt
-
-
-
 ## Docker hub
 1. Stwórz konto dockera na stronie - https://hub.docker.com/signup
 2. Zaloguj się w swojej aplikacji docker hub (docker desktop)

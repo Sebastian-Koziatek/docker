@@ -1,5 +1,0 @@
-FROM alpine:latest
-ENV env_name Sebastian
-COPY greetings.sh .
-RUN chmod +x /greetings.sh
-CMD ["/greetings.sh"]

@@ -1,5 +1,0 @@
-FROM alpine:latest
-#Setting a default value to Argument WELCOME_USER
-ARG WELCOME_USER=Sebastian
-RUN echo "Welcome $WELCOME_USER, to Docker World!" > message.txt
-CMD cat message.txt

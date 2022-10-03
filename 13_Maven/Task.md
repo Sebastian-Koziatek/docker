@@ -1,6 +1,17 @@
 W katalogu `my-maven-docker-project` znajduje się gotowa aplikacja w javie wyświetlająca prosty `Hello World`. Zbudujemy w oparciu o nią nasz kontener dockera.
 
-1. W katalogu `my-maven-docker-project` stwórz dockerfile z ustwaieniami:
+### Budowanie aplikacji
+1. Zbuduj przygotowaną aplikację używając `mavena`.
+
+```
+mvn clean install
+```
+
+Projekt zostanie stworzony w katalogu w którym jestes. Utworzony zostanie folder target w którym znajdować sie bedzie plik jar z aplikacją.
+
+### Budowanie kontnera z aplikacja
+
+2. W katalogu `my-maven-docker-project` stwórz dockerfile z ustwaieniami:
 
 - Ma zostać zbudowany z obrazu openjdk:8
 - Dodaj z folderu `target`  plik `my-maven-docker-project.jar`
@@ -20,9 +31,9 @@ docker build -t <nazwa_uzytkownika>/maven .
 ```
 docker push <nazwa_uzytkownika>/maven
 ```
-
-5. Pobierz swój obraz ze swojego repozytorium na dockerhub
-6. Uruchom go z użyciem portu 8080
+5. Skaskuj obraz z lokalnych zasobów
+6. Pobierz swój obraz ze swojego repozytorium na dockerhub
+7. Uruchom go z użyciem portu 8080
 
 ```
 docker run -d -p 8080:8080 <nazwa_uzytkownika>/maven
@@ -31,4 +42,3 @@ docker run -d -p 8080:8080 <nazwa_uzytkownika>/maven
 > sprawdź czy działa - http://localhost:8080/
 
 
-https://hub.docker.com/_/maven

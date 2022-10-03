@@ -66,12 +66,13 @@ docker volume ls
 > Za każdym razem gdy uruchomimy tak zbudowany obraz zostanie nowo utworzony volumen
 > 
 5. Stwórz plik w dowolnym łatwo dostepnym miejscu np `c:\szkolenie\plik`
->touch /tmp/plik 
+>touch /tmp/plik # MacOS / Linux
+
 6. Uruchom kontener z flaga -v i z konfiuracja /data
 
 ```
 docker run -v /tmp:/data volume /data
-docker run -v c:\szkolenie\plik volume /data
+docker run -v c:\szkolenie\plik:/data volume /data
 ```
 > co się stanie przy wyknaniu takiej komendy? 
 > <br>Zgodnie z plikiem docker file w CMD i ENTRYPOINT zefiniowaliśmy wkonwanie polecenia `ls` na folderze `/` ale w tym kontenerze napisujemy katalog `/` na katalog `/data`. Co się znajduje data w tym kontenerze przy takim ustawieniu? Wszystko co podalismy z parametrem -v czyli odpowiedniu `/tmp/` oraz `c:\szkolenie\`
