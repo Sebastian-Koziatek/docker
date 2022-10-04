@@ -1,5 +1,9 @@
 # Namespace
 
+Przestrzenie nazw to sposób organizowania klastrów w wirtualne podklastry — mogą być przydatne, gdy różne zespoły lub projekty współdzielą klaster Kubernetes. W klastrze obsługiwana jest dowolna liczba przestrzeni nazw, z których każda jest logicznie oddzielona od innych, ale z możliwością komunikowania się ze sobą. Przestrzenie nazw nie mogą być zagnieżdżane w sobie.
+
+Każdy zasób istniejący w Kubernetes istnieje w domyślnej przestrzeni nazw lub przestrzeni nazw utworzonej przez operatora klastra. Poza przestrzenią nazw istnieją tylko węzły i woluminy trwałej pamięci masowej; te zasoby niskiego poziomu są zawsze widoczne w każdej przestrzeni nazw w klastrze.
+
 Namespacy mają dwie najważniejsze chechy w ramach kubernetesa:
 - Namespace organizuja wszystkie zasoby w ramach budowy kubernetesa
 - Mozna powiedziec że to virtual cluster w clustrze 
