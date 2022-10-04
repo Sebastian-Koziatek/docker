@@ -477,3 +477,10 @@ Oct 04, 2022 19:38:32.852 [0x7fc01f839b00] DEBUG - Request: [127.0.0.1:40496 (Lo
 Oct 04, 2022 19:38:32.853 [0x7fc0217bcb00] DEBUG - Completed: [127.0.0.1:40496] 200 GET /library/sections (2 live) GZIP 0ms 403 bytes
 Oct 04, 2022 19:38:32.858 [0x7fc01f839b00] DEBUG - Request: [127.0.0.1:40498 (Loopback)] GET /channels/all (2 live) #6d GZIP Token ()
 Oct 04, 2022 19:38:32.859 [0x7fc0217bcb00] DEBUG - Completed: [127.0.0.1:40498] 200 GET /channels/all (2 live) GZIP 0ms 387 bytes
+Oct 04, 2022 20:00:29.953 [0x7fc0204a6b00] DEBUG - Statistics: Flushing 2 expired bandwidth entries, 0 expired media entries.
+Oct 04, 2022 20:06:29.279 [0x7fc0204a6b00] DEBUG - Sync: uploadStatus
+Oct 04, 2022 20:06:41.688 [0x7fc01edb5b00] DEBUG - Putting plug-in com.plexapp.agents.imdb to sleep.
+Oct 04, 2022 20:06:41.688 [0x7fc01edb5b00] DEBUG - Stopping [com.plexapp.agents.imdb].
+Oct 04, 2022 20:06:41.688 [0x7fc01edb5b00] DEBUG - [com.plexapp.agents.imdb] Killing.
+Oct 04, 2022 20:06:41.692 [0x7fc0219deb00] WARN - JobManager: Could not find job for handle 230
+Oct 04, 2022 20:06:51.672 [0x7fc01edb5b00] DEBUG - Stopping file watcher for com.plexapp.agents.imdb
