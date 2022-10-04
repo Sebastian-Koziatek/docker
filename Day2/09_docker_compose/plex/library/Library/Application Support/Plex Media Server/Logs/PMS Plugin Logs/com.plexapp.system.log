@@ -189,3 +189,4 @@ HTTPError: HTTP Error 403: Forbidden
 2022-10-04 19:38:32,848 (7fc7dbee0b38) :  DEBUG (peerservice:233) - Updating existing server 3c11248e3a4f (c5b59c61e3bba9da5bf9ce45cea4ea771aa9df8e)
 2022-10-04 19:38:32,850 (7fc7dbee0b38) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/sections'
 2022-10-04 19:38:32,857 (7fc7dbee0b38) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/channels/all'
+2022-10-04 20:36:32,790 (7fc7db921b38) :  DEBUG (runtime:1156) - Starting timed thread named 'invalidation_timer'

@@ -484,3 +484,23 @@ Oct 04, 2022 20:06:41.688 [0x7fc01edb5b00] DEBUG - Stopping [com.plexapp.agents.
 Oct 04, 2022 20:06:41.688 [0x7fc01edb5b00] DEBUG - [com.plexapp.agents.imdb] Killing.
 Oct 04, 2022 20:06:41.692 [0x7fc0219deb00] WARN - JobManager: Could not find job for handle 230
 Oct 04, 2022 20:06:51.672 [0x7fc01edb5b00] DEBUG - Stopping file watcher for com.plexapp.agents.imdb
+Oct 04, 2022 20:36:27.945 [0x7fc01fa3cb00] DEBUG - Sync: uploadStatus
+Oct 04, 2022 21:06:26.613 [0x7fc0204a6b00] DEBUG - Sync: uploadStatus
+Oct 04, 2022 21:14:54.351 [0x7fc0219deb00] DEBUG - Shutting down with signal 15 (Terminated)
+Oct 04, 2022 21:14:54.351 [0x7fc0219deb00] DEBUG - Ordered to stop server.
+Oct 04, 2022 21:14:54.352 [0x7fc0259901c0] DEBUG - Stopping server...
+Oct 04, 2022 21:14:54.352 [0x7fc0259901c0] DEBUG - HttpServer: Stopping server.
+Oct 04, 2022 21:14:54.352 [0x7fc0212adb00] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
+Oct 04, 2022 21:14:54.352 [0x7fc0212adb00] DEBUG - TranscodeJobManager: [Running] onServerShutdown
+Oct 04, 2022 21:14:54.352 [0x7fc0212adb00] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
+Oct 04, 2022 21:14:54.354 [0x7fc0259901c0] DEBUG - Server stopped.
+Oct 04, 2022 21:14:54.354 [0x7fc0259901c0] DEBUG - NetworkService: Stopping advertisement.
+Oct 04, 2022 21:14:54.354 [0x7fc0259901c0] DEBUG - Killing plug-ins.
+Oct 04, 2022 21:14:54.380 [0x7fc0259901c0] DEBUG - [com.plexapp.system] Killing.
+Oct 04, 2022 21:14:54.387 [0x7fc0219deb00] WARN - JobManager: Could not find job for handle 149
+Oct 04, 2022 21:14:54.388 [0x7fc0259901c0] DEBUG - ChildProcessMonitor: Waiting for Plex Tuner Service to exit.
+Oct 04, 2022 21:14:54.388 [0x7fc0259901c0] DEBUG - [JobRunner] Signalling job ID 195 with 2
+Oct 04, 2022 21:14:54.413 [0x7fc0219deb00] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Tuner Service' exit code for process 195 is 0 (success)
+Oct 04, 2022 21:14:54.413 [0x7fc01f02db00] DEBUG - [ChildProcessMonitor] Plex Tuner Service exited.
+Oct 04, 2022 21:14:54.414 [0x7fc0259901c0] DEBUG - Database: Shutting down.
+Oct 04, 2022 21:14:54.438 [0x7fc0259901c0] DEBUG - Database: Shutting down.

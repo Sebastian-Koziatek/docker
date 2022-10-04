@@ -15,3 +15,8 @@ Oct 04, 2022 19:36:42.874 [0x7fd2822cab38] INFO - [I] SAT2IP - discover_satip_se
 Oct 04, 2022 19:36:43.279 [0x7fd2822cab38] INFO - [I] v4l::DeviceGetList_impl. getting v4l device list
 Oct 04, 2022 19:36:43.281 [0x7fd2822cab38] INFO - [I] onetv_factory::DeviceGetListEx >>
 Oct 04, 2022 19:36:43.282 [0x7fd2822cab38] WARN - [W] onetv_factory::DeviceGetListEx. libusb_init returned an error -99
+Oct 04, 2022 21:14:54.388 [0x7fd283f36808] INFO - Received SIGINT: Interrupt from keyboard.
+Oct 04, 2022 21:14:54.408 [0x7fd283f36808] INFO - [I] device_manager_t::term
+Oct 04, 2022 21:14:54.408 [0x7fd283f36808] INFO - [I] device_manager_t::term. Stop all devices
+Oct 04, 2022 21:14:54.408 [0x7fd283f36808] INFO - [I] device_manager_t::term. Shut down all device auxes
+Oct 04, 2022 21:14:54.408 [0x7fd283f36808] INFO - [I] tvbutler_aux_t::term
