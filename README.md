@@ -151,4 +151,6 @@ __________________________________________________________________________
 4Fun
 - <a href="https://github.com/storax/kubedoom?fbclid=IwAR1dFVhMiIQ8xH6mJ_IBjUNjbOUf4-0VtnO9E85QJJCicBqZjPBTLHERIwg">Doom</a> na kubernetesie
 - `docker run -it jturpin/hollywood hollywood` - pokaż jak cięzko pracujesz!
-- 
+  
+
+Brakująca lekcja - Konfiguracja `LetsEncrypt` do zabezpiczenia swojego registry - <a href="https://ivhani.medium.com/setting-up-a-docker-registry-with-https-letsencrypt-and-basic-authentication-htpasswd-3ea1961a4144"> link </a>
