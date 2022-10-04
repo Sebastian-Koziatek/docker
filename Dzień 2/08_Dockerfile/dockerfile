@@ -1,0 +1,7 @@
+FROM ubuntu
+RUN apt update && \
+    apt install -y mc && \
+    groupadd -r jkr && useradd -r -m -g jkr jkr
+LABEL imagetype="USER-JKR"
+USER jkr
+CMD mc
