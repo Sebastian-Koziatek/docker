@@ -1,6 +1,6 @@
 # DOCKER INSTALACJA
 ## Linux 
-Install Docker Desktop on Linux
+Install Docker Desktop on Linux 12.2022
 
 <table>
     <tr>
