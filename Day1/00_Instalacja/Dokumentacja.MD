@@ -14,8 +14,8 @@
         <td><a href="https://landscape.cncf.io/" title="CNCF">Link</td>
     </tr>
     <tr>
-        <td>CNCF Cloud Native Interactive Landscape</td>
-        <td><a href="https://landscape.cncf.io/" title="CNCF">Link</td>
+        <td>Open Container Initiative</td>
+        <td><a href="https://opencontainers.org/" title="OCI">Link</td>
     </tr>
     <tr>
         <td>Swagger</td>
