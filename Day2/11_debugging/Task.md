@@ -1,6 +1,6 @@
 ## Najważniejsze narzędzia diagnostyczne kontenerów
 
-1. Wiele programów loguje rzeczy do `stdout`. Wszystko co daje sie zapisać do procesu `stouta` ma wartość `PID 1` w konterze i zostaje przechwycone do lpliku historii na hoscie, gdzie mozną ja wyświetlić za pomocą polecenia logs.
+1. Wiele programów loguje rzeczy do `stdout`. Wszystko co daje sie zapisać do procesu `stouta` ma wartość `PID 1` w konterze i zostaje przechwycone do pliku historii na hoscie, gdzie mozną ja wyświetlić za pomocą polecenia logs.
 > Żeby dobrze to zobrazować sciągnij sobie obraz jenkinsa i go wystartujemy.
 
 ```

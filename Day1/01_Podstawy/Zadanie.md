@@ -2,19 +2,19 @@
 
 ### Podstawowe polecenia, wykonaj je zastanawiając się co one robią i znacza. 
 
-1. Zacznij od ściągnięcia przykładowego `obrazu`:
+1. Zacznij od ściągnięcia przykładowego `obrazu` (docker image):
 
 ```sh
 docker image pull hello-world
 ```
 
-2. Sprwadź czy `obraz` znajduje się w twoich zasobach, wylistujemy posiadane obrazy:
+2. Sprwadź czy `obraz` znajduje się w twoich lokalnych zasobach, wylistujemy posiadane obrazy:
 
 ```
 docker image ls
 ```
 
-3. A teraz uruchom `konterner` z pobranego `obraz`
+3. A teraz stwórz `konterner` (docker container) z pobranego `obraz`
 
 ```sh
 docker container run hello-world
@@ -32,7 +32,7 @@ docker container list
 docker container list -a
 ```
 
-6. Teraz trochę namieszamy, uruchom `kontener` z poniszymi parametrami:
+6. Teraz dodajmy kilka parametrów do stworzenia kontenera. Stwórz i uruchom `kontener` z poniszymi parametrami:
 ```sh
 docker container run --name <myname> --label=type=szkolenie hello-world
 ```
